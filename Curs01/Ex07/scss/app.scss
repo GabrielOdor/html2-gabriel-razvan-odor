@@ -1,0 +1,9 @@
+@mixin mq-sm-down {
+  @media (max-width: 500px) {
+  }
+}
+.box-2 {
+  @include mq-sm-down() {
+    display: none;
+  }
+}

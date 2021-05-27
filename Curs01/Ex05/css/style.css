@@ -1,61 +1,51 @@
-body::before {
-  font-family: 'Source Code Pro', 'SF Mono', Monaco, Inconsolata, 'Fira Mono',
-    'Droid Sans Mono', monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "}".\a   \2577 \a 1 \2502  {"version":3,"sourceRoot":"","sources":["../scss/app.scss"],"names":[],"mappings":"AAKE;EACE;;AAEA;EACE;;AAGF;EACE;;AAGF;EACE;;;AAOF;EACE,OAvBI;;AA0BN;EACE,OA5BG;;AA+BL;EACE,OAjCE;;;AAsCR;EAEI;EACA;EACA;EACA;;AAGF;EACE;EACA;;;AAIJ;EACE;EACA;;AAEA;EACE;EAGE;EACA;EACA;EACA;;;AAOF;EAEE","file":"style.css"}\d\a   \2502  ^\a   \2575 \a   scss\\app.scss 1:1  root stylesheet';
-}
-
 ul a {
   text-decoration: none;
 }
-
+ul a:visited {
+  color: green;
+}
 ul a:hover {
   color: red;
 }
-
 ul a:active {
   color: purple;
 }
 
-ul a:visited {
-  color: green;
+ol a:visited {
+  color: lightcoral;
+}
+ol a:active {
+  color: pink;
+}
+ol a:hover {
+  color: magenta;
 }
 
 .para {
-  padding: 10px 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.reverse .para {
+  width: 50%;
+  padding: 0;
 }
 
 .para-short {
   width: 50%;
   margin: 0 auto;
 }
-
-.reverse .para {
-  width: 50%;
-  padding: 0;
-}
-
 .reverse .para-short {
   width: 100%;
-  padding: 10px 20px;
-}
-
-ol a:hover {
-  color: magenta;
-}
-
-ol a:active {
-  color: pink;
-}
-
-ol a:visited {
-  color: lightcoral;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .all-visited a {
   text-decoration: line-through;
 }
+
+/*# sourceMappingURL=style.css.map */

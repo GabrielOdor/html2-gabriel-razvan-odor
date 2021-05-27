@@ -55,7 +55,7 @@
 }
 
 .flex-container-02 :nth-child(4) {
-  order: 4;
+  order: 3;
 }
 
 .flex-container-04 {
@@ -74,10 +74,6 @@
   order: 1;
 }
 
-.flex-container-06 {
-  flex-direction: row-reverse;
-}
-
 .flex-container-06 :nth-child(4) {
-  order: 1;
+  order: 4;
 }

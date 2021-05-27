@@ -66,11 +66,7 @@ ol {
   }
 }
 
-li {
-  a {
-    .all-visited & {
-      // & = li a => .all-visited li a
-      text-decoration: line-through;
-    }
-  }
+.all-visited a {
+  // & = li a => .all-visited li a
+  text-decoration: line-through;
 }

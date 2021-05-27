@@ -23,7 +23,7 @@
 
   @if $i % 2 !=0 {
     .box-#{$i} {
-      border: dotted;
+      border-style: dotted;
       background-color: green;
     }
   }
